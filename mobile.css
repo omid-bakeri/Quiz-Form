@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url("fonts/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.ttf");
+}
+
+body {
+    border-radius: 5px;
+}
+
+.main {
+    width: 100%;
+    background-color: #dddddd;
+    height: 2800px;
+}
+
+.textErrorFinal {
+    position: absolute;
+    margin-right: 140px;
+    margin-top: 300px;
+}
+
+.buttonBack {
+    width: 90px;
+    height: 40px;
+    font-size: 18;
+    font-family: "vazir";
+    font-weight: 400;
+    border-radius: 50px;
+    border-color: transparent;
+    color: #3f3f3f;
+    float: left;
+    margin-top: 40px;
+    transition: 0.5s ease-in;
+}
+
+.hiddenButtonBack {
+    display: none;
+}
+
+.buttonBack:hover {
+    color: white;
+    background-color: #890606;
+    cursor: pointer;
+}
+
+.buttonBack:active {
+    top: 1px;
+    margin-top: 1px;
+    box-shadow: 0 0 2px 4px black inset;
+}
+
+.hiddenTextErrorFinal {
+    display: none;
+}
+
+.hiddenTextErrorFinal_point {
+    display: none;
+}
+
+.timeOut {
+    font-size: 20px;
+    font-family: "vazir";
+    color: white;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 24px;
+    font-family: "vazir";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.showGuide {
+    float: right;
+    color: #489cea;
+    margin-right: 25px;
+    margin-top: 29px;
+    font-family: "vazir";
+    font-size: 14px;
+    user-select: none;
+    background-color: #dddddd;
+    border-color: transparent;
+}
+
+.showGuide:hover {
+    cursor: pointer;
+}
+
+.quizFromTitle {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    margin-right: 26px;
+    margin-top: 24px;
+}
+
+.title {
+    float: right;
+    padding-right: 14px;
+    padding-top: 8px;
+    color: #8b8585;
+    font-family: "vazir";
+    font-size: 14px;
+}
+
+.image {
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-left: 14px;
+}
+
+.second {
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-color: #10be60;
+    border: 2px solid #10be60;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 29px;
+    color: #247927;
+    text-align: center;
+    font-family: "vazir";
+    font-weight: 500;
+    padding-top: 8px;
+    user-select: none;
+}
+
+.Start {
+    float: right;
+    color: white;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-family: "vazir";
+    font-size: 16px;
+    background-color: #10be60;
+    border-radius: 50px;
+    padding-top: 6px;
+    margin-right: 20px;
+    margin-top: 30px;
+    transition: 0.5s ease-out;
+    user-select: none;
+}
+
+.Start:hover {
+    background-color: #1fb424;
+    cursor: pointer;
+}
+
+.Start:active {
+    padding-top: 8px;
+    margin-top: 35px;
+}
+
+.questionBox {
+    position: absolute;
+    width: 452px;
+    height: 2570px;
+    background-color: white;
+    margin-top: 177px;
+    margin-right: 17px;
+    margin-left: 24px;
+    border-radius: 10px;
+}
+
+.Question1Box {
+    background-color: #eeeeee;
+    width: 414px;
+    height: 230px;
+    margin-top: 19px;
+    margin-right: 19px;
+    border-radius: 10px;
+    font-family: "vazir";
+}
+
+.q_Number {
+    color: #f68646;
+    font-size: 16px;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+.q {
+    font-family: "vazir";
+    font-size: 14px;
+    color: #676462;
+    padding-right: 15px;
+    padding-top: 6px;
+}
+
+.shp {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #414541;
+    border-radius: 50px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 14px;
+    text-align: center;
+    font-family: "vazir";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 2px;
+}
+
+.n {
+    float: right;
+    font-size: 15px;
+    font-family: "vazir";
+    font-style: normal;
+    padding-right: 8px;
+    font-weight: 400;
+    margin-top: 14px;
+    color: #000000;
+}
+
+.checkBox {
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin-top: 18px;
+    margin-right: 8px;
+}
+
+.boxQ {
+    float: left;
+    width: 100%;
+}
+
+.f_quiz {
+    font-family: "vazir";
+    width: 90px;
+    height: 40px;
+    background-color: #5fa6f9;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #5fa6f9;
+    margin-top: 15px;
+    float: left;
+    margin-left: 19px;
+    transition: 0.5s ease;
+}
+
+.f_quiz:hover {
+    background-color: #4998f3;
+    cursor: pointer;
+}
+
+.f_quiz:active {
+    margin-top: 17px;
+    padding-top: 6px;
+}
+
+.warning {
+    font-size: 15px;
+    font-family: "vazir";
+    padding-right: 16px;
+    padding-top: 8px;
+    color: red;
+}
+
+.modalGuide {
+    position: absolute;
+    width: 414px;
+    height: 230px;
+    background-color: #0b0b0b;
+    margin-right: 20px;
+    margin-top: 200px;
+    color: white;
+    backdrop-filter: blur(3px) inset;
+    box-shadow: 10px 7rem 15rem rgba(0, 0, 0, 0.4);
+    z-index: 5;
+    border-radius: 8px;
+}
+
+.h1 {
+    font-size: 20px;
+    font-family: "vazir";
+    padding-top: 10px;
+    padding-right: 10px;
+    user-select: none;
+    padding-top: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+.close {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(208, 10, 10);
+    padding-right: 10px;
+    font-size: 20px;
+    padding-top: -5px;
+    color: rgb(228, 228, 228);
+    font-family: "vazir";
+    font-weight: 300;
+    transition: 0.4s ease-in-out;
+}
+
+.close:hover {
+    background-color: rgb(172, 8, 8);
+    cursor: pointer;
+}
+
+.close:active {
+    padding-top: 3px;
+    margin-top: 5px;
+    user-select: none;
+}
+
+.p {
+    font-size: 16px;
+    user-select: none;
+    font-family: "vazir";
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    color: rgb(221, 221, 221);
+    font-weight: 300;
+    width: 95%;
+    padding-right: 20px;
+}
+
+.hiddenGuideBox {
+    display: none;
+}
+
+.hiddenQuestionBox {
+    display: none;
+}
+
+.hiddenWarningText {
+    display: none;
+}
+
+.Result {
+    font-family: "vazir";
+    font-size: 16px;
+    color: #000000;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.counter {
+    font-family: "vazir";
+    font-size: 15px;
+    color: #1e1e1e;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.yourSituation {
+    float: right;
+    font-family: "vazir";
+    font-size: 15px;
+    color: #1e1e1e;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.y_shape {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #1fb424;
+    margin-top: 3px;
+    margin-right: 20px;
+    float: right;
+}
+
+.hiddenResult {
+    display: none;
+}
+
+.hiddenSituation {
+    display: none;
+}
+
+.hiddenCounter {
+    display: none;
+}

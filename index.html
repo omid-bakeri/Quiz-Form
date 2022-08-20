@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="mobile.css" type="text/css" />
+    <title>Quiz Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="showGuideBox">
+            <button class="showGuide hiddenGuideText">مشاهده راهنمای بازی</button>
+        </div>
+        <div class="quizFromTitle hiddenQuizFormTitle">
+            <p class="title">بازی کوییز فرم</p>
+            <img class="image" src="icons/mobile.png" alt="بازی کوییز فرم" />
+        </div>
+        <div class="Time">
+            <div class="second hiddenTime">00:60</div>
+        </div>
+        <div class="startBox">
+            <div class="Start hiddenStart">شروع</div>
+        </div>
+        <div class="modalGuide hiddenGuideBox">
+            <div class="box">
+                <div class="close">x</div>
+                <h1 class="h1">راهنمای بازی</h1>
+                <div class="p">
+                    شما در این بازی باید به 10 تا سوال پاسخ دهید. نکات حائز اهمیت: 1 - باید به تمام سوالات پاسخ دهید 2 - اگر در عرض 60 ثانیه نتوانید پاسخ دهید شما امتیازی کسب نخواهید کرد. موفق باشید.
+                </div>
+            </div>
+        </div>
+        <div class="textErrorFinal">
+            <p class="timeOut hiddenTextErrorFinal">زمان شما به اتمام رسید.</p>
+            <div class="h2 hiddenTextErrorFinal_point">امتیاز شما : 0</div>
+            <button class="buttonBack hiddenButtonBack">بازگشت</button>
+        </div>
+        <div class="questionBox hiddenQuestionBox">
+            <div class="warning hiddenWarningText">
+                لطفا تمام سوالات را جواب دهید.
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 1</div>
+                <div class="q">ابو ریحان بیرونی در کدام شهر متولد شد؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer1" class="n">کاث</div>
+                    <input id="chk1-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer2" class="n">بلخ</div>
+                    <input id="chk1-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer3" class="n">توس</div>
+                    <input id="chk1-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer4" class="n">هرات</div>
+                    <input id="chk1-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 2</div>
+                <div class="q">پایتخت مجارستان کدام گزینه است؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer2-1" class="n">بوداپست</div>
+                    <input id="chk2-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer2-2" class="n">ورشو</div>
+                    <input id="chk2-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer2-3" class="n">وین</div>
+                    <input id="chk2-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer2-4" class="n">آستانه</div>
+                    <input id="chk2-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 3</div>
+                <div class="q">جنگ 100 ساله چند سال طول کشید؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer3-1" class="n">100 سال</div>
+                    <input id="chk3-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer3-2" class="n">116 سال</div>
+                    <input id="chk3-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer3-3" class="n">120 سال</div>
+                    <input id="chk3-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer3-4" class="n">103 سال</div>
+                    <input id="chk3-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 4</div>
+                <div class="q">پوست انسان چند رگدانه دارد؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer4-1" class="n">2</div>
+                    <input id="chk4-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer4-2" class="n">3</div>
+                    <input id="chk4-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer4-3" class="n">4</div>
+                    <input id="chk4-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer4-4" class="n">5</div>
+                    <input id="chk4-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 5</div>
+                <div class="q">آقای گل جام جهانی 2014 کی بود؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer5-1" class="n">کریستیانو رونالدو</div>
+                    <input id="chk5-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer5-2" class="n">خامس رودریگز</div>
+                    <input id="chk5-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer5-3" class="n">نیمار</div>
+                    <input id="chk5-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer5-4" class="n">لیونل مسی</div>
+                    <input id="chk5-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 6</div>
+                <div class="q">کاشف میکروب کی بود؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer6-1" class="n">دالتون</div>
+                    <input id="chk6-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer6-2" class="n">لویی پاستور</div>
+                    <input id="chk6-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer6-3" class="n">خواجه نصیر الدین توسی</div>
+                    <input id="chk6-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer6-4" class="n">الکساندر فلمینگ</div>
+                    <input id="chk6-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 7</div>
+                <div class="q">سازنده زبان سی چه کسی بود؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer7-1" class="n">دنیس ریچی</div>
+                    <input id="chk7-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer7-2" class="n">جیمز گاسلینگ</div>
+                    <input id="chk7-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer7-3" class="n">یوکی هیرو ماتسوموتو</div>
+                    <input id="chk7-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer7-4" class="n">شرکت مایکروسافت</div>
+                    <input id="chk7-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 8</div>
+                <div class="q">کدام پادشاه ایرانی مجلس را به توپ بست؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer8-1" class="n">احمد شاه</div>
+                    <input id="chk8-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer8-2" class="n">رضا شاه</div>
+                    <input id="chk8-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer8-3" class="n">محمد علی شاه</div>
+                    <input id="chk8-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer8-4" class="n">محمد رضا شاه</div>
+                    <input id="chk8-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 9</div>
+                <div class="q">معنی کلمه درفش چه است؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer9-1" class="n">پرچم</div>
+                    <input id="chk9-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer9-2" class="n">خشم</div>
+                    <input id="chk9-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer9-3" class="n">سیاه</div>
+                    <input id="chk9-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer9-4" class="n">شهری در هرات</div>
+                    <input id="chk9-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <div class="Question1Box">
+                <div class="q_Number">سوال 10</div>
+                <div class="q">سیاره ای که از نیتروژن یخ زده پوشیده شده است؟</div>
+                <div class="boxQ">
+                    <div id="shp" class="shp">1</div>
+                    <div id="answer10-1" class="n">مشتری</div>
+                    <input id="chk10-1" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">2</div>
+                    <div id="answer10-2" class="n">نپتون</div>
+                    <input id="chk10-2" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">3</div>
+                    <div id="answer10-3" class="n">زحل</div>
+                    <input id="chk10-3" class="checkBox" type="checkbox" />
+                </div>
+                <div class="boxQ">
+                    <div class="shp">4</div>
+                    <div id="answer10-4" class="n">پلوتو</div>
+                    <input id="chk10-4" class="checkBox" type="checkbox" />
+                </div>
+            </div>
+            <button class="f_quiz">اتمام کوییز</button>
+            <div class="Result hiddenResult">امتیاز شما:</div>
+            <div class="counter hiddenCounter">تعداد پاسخ های درست:</div>
+            <div class="Situation hiddenSituation">
+                <div class="yourSituation">وضعیت شما:</div>
+                <div class="y_shape"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
